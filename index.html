@@ -11,23 +11,46 @@
 </head>
 
 <body>
-   
+
 
     <div class="wrapper">
         <section class="registration">
-            <h1 class="title">Rigester</h1>
-            <p class="discription"></p>
+            <h1 class="title">Rigister</h1>
+            <p class="discription">Create your account. It's free and only takes a minute.</p>
+
             <form class="form" action="">
-                <input type="text">
-                <input type="text">
-                <input type="email">
-                <input type="password">
-                <input type="password"></form>
-                <input type="checkbox" name="" id="">
-                <p><a href="" class="terms"></a><span>&</span><a href="" class="privacy"></a></p>
-                <button class="reg-send"></button>
+                <div class="flex-row">
+                    <label class="block">
+                        <input type="text" class="wrapp" placeholder="First Name" autofocus>
+                    </label>
+                    <label class="block">
+                        <input type="text" class="wrapp" placeholder="Last Name">
+                    </label>
+                </div>
+                <label class="column">
+                    <input type="email" placeholder="Email">
+                </label>
+                <label class="column">
+                    <input type="password" placeholder="Password">
+                </label>
+                <label class="column">
+                    <input type="password" placeholder="Confirm Password">
+                </label>
+                <div class="licenc-box">
+                    <label for="form" class="licence">
+
+                        <p class=""><input type="checkbox" class="check" name="" id="">I accept the<a href="./"
+                                class="terms"> Terms of Use</a> <span>&</span> <a href="" class="privacy">Privacy
+                                Policy</a></p>
+                        <button class="reg-send"></button>
+                    </label>
+                    
+                </div>
+                <a class="registration" href="">Register Now</a>
+            </form>
+
         </section>
-        <p class="accont"><a href="" class="sign-in"></a></p>
+
     </div>
 </body>
 
